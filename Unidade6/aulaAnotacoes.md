@@ -7,16 +7,6 @@ E daí, querem ficar "famosos" e "ricos" ... então tentem resolver este desafio
 
 ## Aula
 
-<!-- TODO: comentar para usar Try/Catch com "moderação"
-ver exemplo de código do ue não deve ser feito em: [ExemploTryCatch](ExemploTryCatch.java "ExemploTryCatch")  
-Mais explicação ver: [tryCatch](tryCatch.md "tryCatch")  
--->
-
-<!-- FIXME:
-Explicar sobre new para alocar espaço para vetores feita por [offset.numbers](fluxogramas/offset.numbers). E esta explicação poderia ser melhor "desenha" usando <https://www.planttext.com> com o exemplo 03 - Data Structures.-->  
-
-## Aula
-
 Métodos -> Paradigma .. Orientação a Objeto (OO)  
 - Escopo dos métodos: ![escopo](imgs/escopo.png "escopo")  
 
