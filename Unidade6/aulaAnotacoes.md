@@ -3,10 +3,6 @@
 E daí, querem ficar "famosos" e "ricos" ... então tentem resolver este desafio ...
   [P versus NP](https://pt.wikipedia.org/wiki/P_versus_NP "P versus NP")  
 
-## Rabiscos
-
-![Rabiscos](aulaRabiscos.drawio.svg)
-
 ## Introdução à Programação - Unidade 6
 
 ## Aula
@@ -20,12 +16,6 @@ Mais explicação ver: [tryCatch](tryCatch.md "tryCatch")
 Explicar sobre new para alocar espaço para vetores feita por [offset.numbers](fluxogramas/offset.numbers). E esta explicação poderia ser melhor "desenha" usando <https://www.planttext.com> com o exemplo 03 - Data Structures.-->  
 
 ## Aula
-
-### Explicação sobre Métodos  
-
-Código de exemplo: sem seguir um enunciado  
-
-[CaixaAreia](src/CaixaAreia.java)  
 
 Métodos -> Paradigma .. Orientação a Objeto (OO)  
 - Escopo dos métodos: ![escopo](imgs/escopo.png "escopo")  
