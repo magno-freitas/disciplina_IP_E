@@ -36,7 +36,7 @@ A resposta a cada pergunta pode ser: SIM, NÃO ou IND (indiferente). O índice d
 - se um respondeu IND e o outro SIM ou NÃO soma-se 1;
 - se um respondeu SIM e o outro NÃO subtrai-se 2 ao índice.
 
-Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  armazenar  as respostas da moça. Crie um método que possa ler tanto as respostas do rapaz como da moça, e outro para calcular e retornar  a  afinidade.  Por  fim, escreva  a  afinidade  considerando  os  seguintes intervalos:
+Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  armazenar  as respostas da moça. Por  fim, escreva  a  afinidade  considerando  os  seguintes intervalos:
 
 | Afinidade | Mensagem                          |
 |-----------|-----------------------------------|
