@@ -65,9 +65,3 @@ Métodos _ os meus métodos
   - public é o valor default  
   - .. recomendação usar nesta ordem: private, protected, public  
 
-[ExemploMetodos](src/ExemploMetodos.java "ExemploMetodos")  
-[ExemploMetodoOrdenarTresValores](src/ExemploMetodoOrdenarTresValores.java "ExemploMetodoOrdenarTresValores")  
-[Uni4Exe14Teste.java](src/Uni4Exe14Teste.java "Uni4Exe14Teste.java")  
-- [ ] [ExemploMatriz.java](src/ExemploMatriz.java "ExemploMatriz.java")  <!-- prof. completo -->  
-
-
