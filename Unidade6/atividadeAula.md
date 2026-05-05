@@ -74,7 +74,7 @@ Baseado nisto faça um programa que informe:
 - qual a nota atribuída pela mulher mais jovem;
 - quantas das mulheres com mais de 50 anos deram nota superior a média recebida pelo cinema.
 
-Utilize os conceitos aprendidos sobre vetores (ou mesmo o uso de matriz) e métodos para a resolução deste exercício.
+Utilize os conceitos aprendidos sobre vetores (ou mesmo o uso de matriz).
 
 ----------
 **Uni6Exe10.java** - Dado um vetor de números inteiros, com capacidade limitada a 50 elementos, faça um programa que construa um menu com as seguintes opções:
