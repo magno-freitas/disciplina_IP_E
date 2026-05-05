@@ -4,8 +4,6 @@ Implemente  uma  classe  com  o  método  main  para  cada  um  dos seguintes  e
 
 Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de cada enunciado.
 
-E agora podemos usar métodos para resolver os exercícios abaixo.
-
 ----------
 
 ## Vetores de Tamanho definido no código
