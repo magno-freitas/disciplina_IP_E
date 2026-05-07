@@ -103,7 +103,7 @@ Para a opção "6 - Ordenar valores" se pode usar o "método bolha" explicado ne
 52: *******
 53: **
 
-----------z
+----------
 **Uni6Exe13.java** - Considere um vestibular com n questões. Faça um programa que:
 a)	Leia o gabarito das n questões e armazene em um vetor;
 b)	Leia as respostas de um aluno e informe quantas questões ele acertou.
