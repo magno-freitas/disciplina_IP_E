@@ -52,7 +52,7 @@ Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  arma
 ## Vetores de Tamanho informado
 
 ----------
-**Uni6Exe06.java** - Faça um programa que leia um valor N inteiro. Com base neste valor, crie um vetor do tipo real. Em seguida, solicite ao usuário informar essa quantidade N de valores reais para popular o vetor. Após ter preenchido o vetor, solicite que o usuário informe um outro valor real. Informe para o usuário se este valor informado se encontra cadastrado no vetor. 
+**Uni6Exe06.java** - Faça um programa que leia N valores reais e os armazene em um vetor. Em seguida, dado um determinado valor, informe se o mesmo se encontra no vetor.
 
 ----------
 **Uni6Exe07.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo inteiro. Em seguida, solicite ao usuário para digitar um número inteiro várias vezes, até preencher o vetor. Esse número deverá ser armazenado no vetor caso ainda não exista, e se o valor já existir deve ser pedido um novo valor. Isto é, se o usuário informar o número 2 e já existir o número 2 em alguma posição do vetor, o número não deve ser adicionado. Após ter adicionado todos os números dentro do vetor, o mesmo deve ser ordenado. Para isso reordene os elementos internos do vetor de modo que este fique em ordem crescente, conforme no exemplo:
@@ -94,3 +94,25 @@ Para a opção "6 - Ordenar valores" se pode usar o "método bolha" explicado ne
 **Desafio:** adapte o código acima para ter mais uma opção no menu para também poder inverter os elementos dentro de um vetor. Assim o último elemento passa a ser o primeiro, o penúltimo passa ser o segundo, e assim sucessivamente para todos os elementos da lista. Mas lembre, não se deve considerar o vetor inteiro, mas somente os elementos que já foram adicionados no vetor. Como base use o código descrito em [vetorInverter.java](https://gist.github.com/dalton-reis/1c5f2bdf65b251730e1cb76c5a61bb1b).
 
 ----------
+**Uni6Exe11.java** - Construa um programa para ler dois vetores contendo 10 números inteiros e depois crie um terceiro vetor cujo conteúdo de cada posição seja: 1, se o número armazenado em uma posição do 1º vetor for o mesmo armazenado na posição respectiva do 2º vetor, e 0, caso contrário.
+
+----------
+**Uni6Exe12.java** - Escreva um programa para ler N números (Máximo 20) cujos valores estejam entre 50 e 70. Ao final, seu programa deverá exibir um histograma horizontal mostrando com asteriscos a quantidade de vezes que cada número foi lido. A ilustração a seguir mostra as quatro primeiras linhas do histograma, para o caso de o número 50 ter sido lido 3 vezes, o número 51, nenhuma vez, o 52, sete vezes e o 53 duas vezes.
+50: ***
+51:
+52: *******
+53: **
+
+----------
+**Uni6Exe13.java** - Considere um vestibular com n questões. Faça um programa que:
+a)	Leia o gabarito das n questões e armazene em um vetor;
+b)	Leia as respostas de um aluno e informe quantas questões ele acertou.
+
+----------
+**Uni6Exe14.java** - Um cinema pretende fazer uma pesquisa para avaliar o grau de satisfação de seus clientes. Trinta deles foram ouvidos e para cada perguntou-se o sexo (1=feminino  2=masculino), uma nota para o cinema (zero até dez) e a idade.
+Baseado nisto faça um programa que informe:
+a)	qual a nota média recebida pelo cinema;
+b)	qual a nota média atribuída pelos homens;
+c)	qual a nota atribuída pela mulher mais jovem;
+d)	quantas das mulheres com mais de 50 anos deram nota superior a média.
+
