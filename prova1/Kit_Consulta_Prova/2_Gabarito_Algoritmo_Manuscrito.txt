@@ -1,0 +1,58 @@
+\ALGORITMO Molde_Prova_Universidade
+VARIAVEIS
+    valorEntrada : REAL
+    contadorGeral : INTEIRO
+    contadorCondicao : INTEIRO
+    somadorGeral : REAL
+    maiorValor : REAL
+    media : REAL
+    percentual : REAL
+
+INICIO
+    // Inicialização
+    contadorGeral <- 0
+    contadorCondicao <- 0
+    somadorGeral <- 0
+    maiorValor <- 0
+    
+    // Leitura Inicial
+    ESCREVA("Informe o valor (ou 0 para encerrar):")
+    LEIA(valorEntrada)
+    
+    // Laço ENQUANTO (Condição de parada)
+    ENQUANTO (valorEntrada <> 0) FACA
+    
+        // Cálculos gerais
+        contadorGeral <- contadorGeral + 1
+        somadorGeral <- somadorGeral + valorEntrada
+        
+        // Condição do problema (Ex: if valor < 10)
+        SE (valorEntrada < 10) ENTAO
+            contadorCondicao <- contadorCondicao + 1
+        FIM_SE
+        
+        // Descobrir o Maior
+        SE (valorEntrada > maiorValor) ENTAO
+            maiorValor <- valorEntrada
+        FIM_SE
+        
+        // Sempre pedir a nova entrada no final do laço!
+        ESCREVA("Informe o valor (ou 0 para encerrar):")
+        LEIA(valorEntrada)
+        
+    FIM_ENQUANTO
+    
+    // Evitando divisão por zero fora do laço
+    SE (contadorGeral > 0) ENTAO
+        media <- somadorGeral / contadorGeral
+        percentual <- (contadorCondicao / contadorGeral) * 100
+        
+        ESCREVA("Total lidos: ", contadorGeral)
+        ESCREVA("Média: ", media)
+        ESCREVA("Maior: ", maiorValor)
+        ESCREVA("Percentual: ", percentual, "%")
+    SENA0
+        ESCREVA("Nenhum dado válido inserido.")
+    FIM_SE
+
+FIM
