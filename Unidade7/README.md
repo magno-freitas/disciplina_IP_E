@@ -57,7 +57,7 @@ O resultado de uma função deve ser retornado a partir da cláusula return
 
 Sintaxe (definição):
 
-tipo identificador [(tipo parâmetros)];
+tipo identificador ([tipo parâmetros]);
 {
 	[declarações]
 	< Bloco >
