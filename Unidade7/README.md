@@ -20,64 +20,62 @@ São ativadas por um programa principal ou outros subprogramas, causando um desv
 - Funções definidas pelo programador
 
 
-### Tipo Estruturados Unidimensionais (Vetores)
+### Definição de Subrotinas
 
-- Os **Tipos Estruturados Unidimensionais** permitem armazenar diversos dados de um mesmo tipo (homogêneos) em uma única variável​
-- Os **Tipos Estruturados Unidimensionais** também são conhecidos como **Vetores​**
-- Cada dado armazenado é identificada por um **índice**, que é a posição em que o mesmo se encontra dentro da estrutura​
-- O **índice** define a posição do elemento no vetor​
-- A representação mais comum para um Vetor é uma tabela indexada, conforme o exemplo a seguir:​
-![Vetor com 10 posições](imgs/vetor9.png)
-- No exemplo foi definida uma estrutura de 10 valores, ou seja, nela podem ser armazenados até 10 valores de um determinado tipo de dado​
-- OBS. No Java o índice do primeiro elemento de um vetor é zero. Vamos adotar esta prática, tendo em mente que nem todas as linguagens funcionam assim​
-- As informações em um vetor são identificadas por um índice que normalmente é dado entre colchetes **[]​**
+Uma sub-rotina tem:
+- Tipo: define o tipo da informação que terá o resultado da sub-rotina (saída)
+- Nome: define o nome da sub-rotina (identificador)
+- Parâmetros: definem os dados que serão trocados entre a sub-rotina e a rotina que a ativou
 
-- Exemplos de Vetores em Computador:​
-  - Vetor de números reais (tamanho: 15)​: nesse vetor a posição \[6] armazena 8.5
-![Vetor com 15 posições de números reais](imgs/vetor15reais.png)
-  - Vetor de nomes (tamanho: 10)​: nesse vetor o elemento da posição \[2] é “Maria”
-![Vetor com 10 posições com texto](imgs/vetor10texto.png)
-  - Vetor de números inteiros (tamanho: 18)​: nesse vetor o elemento da posição \[14] é 2​
-![Vetor com 18 posições de números reais](imgs/vetor18reais.png)​
-  - Vetor de caracteres (tamanho: 12)​: nesse vetor a posição \[10] armazena ‘R’;​
-![Vetor com 12 posições de números reais](imgs/vetor12reais.png)
+### O que são parâmetros
 
-- Sintaxe e exemplo do uso de Tipos Estruturados Unidimensionais (**Vetores**):
+Em uma linguagem de programação os parâmetros são denominados de:
+- Formais (Declaração)
+- Atuais (Ativação)
 
-- Em Java:​
-  
-```java
+- **PARÂMETROS FORMAIS:** devem ter a definição do tipo antes do nome da variável.
+- **PARÂMETROS ATUAIS:** não devem ter a definição do tipo antes do nome da variável.
+- **TRANSFERÊNCIA DE PARÂMETROS**
+    - Número de Parâmetros Formais = Número de Parâmetros Atuais.
+    - O Argumento Formal e seu correspondente Argumento Atual devem ser do mesmo tipo.
 
-    int vetorInteiro[] = new int[10];     // Declaração  
-    vetorInteiro[0] = 11;                 // atribuir o valor 11 ao primeiro elemento do vetor
-    vetorInteiro[9] = 22;                 // atribuir o valor 22 ao último elemento do vetor
-    int varInteiro9 = vetorInteiro[9];    // atribuir o último elemento do vetor para uma variável
-    int varInteiro0 = vetorInteiro[0];    // atribuir o primeiro elemento do vetor para uma variável
+### PASSAGEM DE PARÂMETRO POR VALOR:
+Na passagem de parâmetro por valor, o parâmetro formal recebe o conteúdo do parâmetro atual.
+Exemplo:
+int troca (int a, int b)
 
-```
+### PASSAGEM DE PARÂMETRO POR REFERÊNCIA:
+Na passagem de parâmetro por referência, o parâmetro formal e o parâmetro atual tem o mesmo endereço de memória.
+Ao alterar a variável relacionada ao parâmetro formal, a variável do parâmetro atual também é alterada
+Não podem ser utilizadas expressões como parâmetros atuais na ativação (chamada) da sub-rotina.
 
-- Em Java:​
+### Funções definidas pelo programador:
+O programador pode definir e implementar suas próprias funções
+As funções podem retornar um resultado, devendo, portanto, ter um tipo. Funções sem retorno devem ser definidas como do tipo void
+As funções podem (e devem) ter PARÂMETROS que são utilizados para a entrada e saída de dados das funções
+O resultado de uma função deve ser retornado a partir da cláusula return
 
-  ```java
+Sintaxe (definição):
 
-    int valores[] = new int[15];     // Declaração
-    for (int cont=0; cont<15; cont++) {
-      valores[cont] = cont;
-    }
+tipo identificador [(tipo parâmetros)];
+{
+	[declarações]
+	< Bloco >
+	return <expressão>;
+}
 
-  ```
+As funções podem ser ativadas em atribuições, condições ou em parâmetros de outras funções
 
-### Tipo Estruturados Unidimensionais (Vetores): denominação
+A chamada de uma função deve seguir a sintaxe de ativação
 
-- **tipo**: define os elementos que serão armazenados no vetor. Podem ser tipos simples ou classes.​
-- **tamanho**: define o número de elementos do vetor.​
-- **índice**: define a posição do elemento no vetor. Pode ser definido através de valores constantes, variáveis ou expressões. ​
+Sintaxe (ativação):
 
-### Tipo Estruturados Unidimensionais (Vetores): N-Dimensões
+variavel = função (parâmetros);
+ou
+System.out.printl (“formato” + função (parâmetros));
+ou
+if (função (parâmetros))
 
-- Existem tipos estruturados n-dimensionais. Por exemplo, os **tipos estruturados bidimensionais** permitem organizar elementos em **linhas** e **colunas**
-- Os tipos estruturados bidimensionais são comumente chamados de **Matrizes**
-![Matriz com 5 linhas e 10 colunas](imgs/matriz5x10.png)
 
 ----------
 
