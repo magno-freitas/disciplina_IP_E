@@ -1,8 +1,9 @@
-# Introdução à Programação - Unidade 6
+# Introdução à Programação - Unidade 7
 
 Algumas anotações feitas em aula: [aulaAnotacoes.md](./aulaAnotacoes.md "aulaAnotacoes.md")
 
-## Tipos Estruturados
+## COMANDOS DE CONTROLE DE FLUXO: SUB-ROTINAS<img width="1913" height="175" alt="image" src="https://github.com/user-attachments/assets/39a0963d-91b8-4fe6-aa56-893d6c6de235" />
+
 
 ### [VideoAula_6 (30:10)](<https://furb.sharepoint.com/:v:/t/msteams_d5eac5-TCCsDSC/IQCFKdQgXidYRp1B3tS3nA2fAZtxHbIUrn1--rBBhk_FbJU?e=2qljgK> "link alternativo da videoaula da unidade 6")
 
