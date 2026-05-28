@@ -12,7 +12,7 @@ São rotinas (pequenos programas) que realizam uma determinada função específ
 
 São ativadas por um programa principal ou outros subprogramas, causando um desvio.
 
-<img width="992" height="590" alt="image" src="https://github.com/user-attachments/assets/54257f38-525d-4e38-8e67-42c5af52ecb0" />
+<img width="~794" height="472" alt="image" src="https://github.com/user-attachments/assets/54257f38-525d-4e38-8e67-42c5af52ecb0" />
 
 ### Tipo de Subprogramas em Java
 
