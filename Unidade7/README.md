@@ -4,22 +4,21 @@ Algumas anotações feitas em aula: [aulaAnotacoes.md](./aulaAnotacoes.md "aulaA
 
 ## COMANDOS DE CONTROLE DE FLUXO: SUB-ROTINAS
 
-- Os problemas computacionais muitas vezes exigem o armazenamento de grande quantidade de dados em memória para posterior processamento.​
-- Exemplo 1: dado o nome de 50 pessoas, escrever estes dados em ordem alfabética.
-  - Problema: neste caso criaríamos uma variável para cada nome? E se fossem 1000 nomes?​
-- Exemplo 2: uma loja registrou em um dia a quantidade vendida de cada um de seus 200 produtos. Informe o código dos produtos que tiveram vendas acima da média.
-  - Problema: neste caso criaríamos 200 variáveis, uma para cada produto?​
-- Exemplo 3: a loja do exemplo 2 quer fazer um controle mensal de suas vendas. Para isto ela mantém os dados de cada um de seus produtos vendidos em cada dia do mês.
-  - Problema: quantas variáveis teríamos que criar neste caso?​
-- Exemplo 4: uma pessoa quer ir de uma cidade A até uma cidade F. Considerando que há vários caminhos possíveis e que são registradas as distâncias intermediárias entre as cidades (ex. de A a B, de B a C, de B a D, etc.) informe o caminho que tem a menor distância entre A e F.
-  - Problema: neste caso quantos caminhos vamos armazenar? Como vamos totalizar parcialmente as distâncias de cada caminho?​
-​
+São rotinas (pequenos programas) que realizam uma determinada função específica.
 
-### Tipo Estruturados: solução
+- Permitem modularizar os programas.
 
-- Para a solução destes exemplos é necessário o uso de **estruturas de dados**.​
-- As estruturas de dados ampliam o conceito de variáveis, pois permitem armazenar diversas informações a partir da definição de uma única variável.​
-- Existem diversos **tipos de estruturas de dados**, tais como, vetores, matrizes, listas, filas, pilhas, árvores, arquivos, entre outras.​
+- Permitem reutilização de código;
+
+São ativadas por um programa principal ou outros subprogramas, causando um desvio.
+
+<img width="992" height="590" alt="image" src="https://github.com/user-attachments/assets/54257f38-525d-4e38-8e67-42c5af52ecb0" />
+
+### Tipo de Subprogramas em Java
+
+- Funções pré-definidas
+- Funções definidas pelo programador
+
 
 ### Tipo Estruturados Unidimensionais (Vetores)
 
