@@ -6,10 +6,6 @@ Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de
 
 ----------
 
-## Vetores de Tamanho definido no código
-
-----------
-
 **Uni7Exe01.java** Dada uma letra minúscula e uma frase em letras minúsculas faça um programa que, com base em um subprograma, informe quantas vezes a letra aparece na frase.
 
 **Uni7Exe02.java** Dada uma frase e uma palavra faça um programa que, com base em um subprograma, informe quantas vezes a palavra aparece na frase. Desconsidere o uso de pontuação na frase.
