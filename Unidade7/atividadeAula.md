@@ -25,10 +25,15 @@ TESTE	5
 **Uni7Exe04.java** Dado um texto qualquer faça um programa que, através de subprogramas:
 a)	forneça o número de vogais do texto.
 b)	informe o valor numérico que aparece no início do texto. Informe 0 (zero) se no início não há valor numérico (ver exemplos abaixo):
+
 "27C1"	- valor numérico = 27
+
 "134"	- valor numérico = 134
+
 "XYZ"	- valor numérico = 0
+
 "B21"	- valor numérico = 0
+
 c)	forneça a posição de início de uma palavra dentro do texto. 
 
 **Uni7Exe05.java** Faça um programa que leia várias expressões aritméticas e, com base em subprogramas, escreva:
