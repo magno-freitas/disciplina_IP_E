@@ -19,9 +19,7 @@ ISTO	4
 É	1
 
 UM	2
-
 TESTE	5
-
 
 **Uni7Exe04.java** Dado um texto qualquer faça um programa que, através de subprogramas:
 a)	forneça o número de vogais do texto.
