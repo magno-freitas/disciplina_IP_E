@@ -23,7 +23,9 @@ UM	2
 TESTE	5
 
 **Uni7Exe04.java** Dado um texto qualquer faça um programa que, através de subprogramas:
-a)	forneça o número de vogais do texto.
+
+a)	forneça o número de vogais do texto.        
+
 b)	informe o valor numérico que aparece no início do texto. Informe 0 (zero) se no início não há valor numérico (ver exemplos abaixo):
 
 "27C1"	- valor numérico = 27
@@ -37,6 +39,9 @@ b)	informe o valor numérico que aparece no início do texto. Informe 0 (zero) s
 c)	forneça a posição de início de uma palavra dentro do texto. 
 
 **Uni7Exe05.java** Faça um programa que leia várias expressões aritméticas e, com base em subprogramas, escreva:
+
 a)	informe se cada expressão aritmética está correta sintaticamente em relação ao número de parênteses utilizados;
+
 b)	para cada expressão aritmética informe o número de divisões e multiplicações utilizadas;
+
 c)	informe a posição do primeiro operador aritmético de cada expressão.
