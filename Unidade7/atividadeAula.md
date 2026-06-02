@@ -11,11 +11,17 @@ Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de
 **Uni7Exe02.java** Dada uma frase e uma palavra faça um programa que, com base em um subprograma, informe quantas vezes a palavra aparece na frase. Desconsidere o uso de pontuação na frase.
    
 **Uni7Exe03.java** Dada uma frase, onde cada palavra é separada por no mínimo um espaço em branco, faça um programa que, com base em um subprograma, imprima a frase e cada palavra da frase juntamente com o número de caracteres da palavra (veja exemplo a seguir):
+
 ISTO É UM TESTE
+
 ISTO	4
+
 É	1
+
 UM	2
+
 TESTE	5
+
 
 **Uni7Exe04.java** Dado um texto qualquer faça um programa que, através de subprogramas:
 a)	forneça o número de vogais do texto.
