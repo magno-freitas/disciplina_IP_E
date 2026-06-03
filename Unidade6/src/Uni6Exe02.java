@@ -21,7 +21,7 @@ public class Uni6Exe02 {
 
         //calcular a média
         float media = soma / 12;
-        
+  
         //testar os valores acima da média
         System.out.println("Valores acima da média");
         for (int cont = 0; cont <= 11; cont++) {
