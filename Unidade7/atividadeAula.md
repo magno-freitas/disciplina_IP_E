@@ -80,4 +80,64 @@ Se a diferença for igual ou maior que 3 (gostos muito distantes): Subtraia 2 po
 
 - A sub-rotina valorConvertido realizará a conversão e retornará um vetor de inteiros contendo a representação do número em binário.
 
-- O programa principal deve receber esse vetor retornado e imprimir o resultado final formatado na tela. 
+- O programa principal deve receber esse vetor retornado e imprimir o resultado final formatado na tela.
+
+**Uni7Exe10.java** Bancos de dados e tabelas precisam permitir que novos dados entrem, sejam encontrados e também deletados quando um cliente cancela o serviço. Você deve permitir que o usuário armazene até 10 IDs (valores inteiros) em um vetor, onde o valor 0 representa uma posição vazia. Com base nisso, crie uma sub-rotina para cada uma das situações abaixo: 
+
+- Verificar a existência de um ID.
+  
+- Remover um ID.
+  
+- Adicionar um ID, caso ainda haja espaço disponível.
+
+**Uni7Exe11.java** Em empresas de tecnologia e e-commerce, o controle de estoque é automatizado por sistemas que atualizam bases de dados em tempo real. Para facilitar a operação, os produtos são identificados diretamente por seus nomes, e o sistema deve ser capaz de localizar as quantidades em estoque correspondentes. Crie um programa que gerencie um estoque de 5 itens, armazenando o nome dos itens e a quantidade em estoque. O programa principal deverá conter um menu com as seguintes opções: 
+
+1 – Procurar item. 
+
+2 – Adicionar item. 
+
+3 – Retirar item. 
+
+4 – Sair.	 
+
+Para cada opção do menu, com exceção da opção 4, uma sub-rotina diferente deverá ser acionada, e o usuário deverá ser informado sobre o resultado da ação realizada. 
+
+**Uni7Exe12.java** Em segurança de dados, antes de liberar o acesso a um relatório ou banco de dados confidencial, o sistema precisa verificar se o usuário que está tentando logar possui permissão ativa na empresa. Com base nos usuários armazenados que possuem acesso autorizado ao sistema, você deverá criar a sub-rotina booleana verificarPermissao(String[] lista, String usuarioTentandoAcesso), que deve retornar:  
+
+- True, para “Acesso Autorizado”; 
+
+- False para “Acesso Negado”.  
+
+Após a verificação, o usuário que está tentando acessar deverá receber a seguinte mensagem: “Olá, usuário y. Seu acesso foi permitido/negado.” 
+
+**Uni7Exe13.java** Um laboratório de biomedicina recebe diariamente lotes de insumos refrigerados (como vacinas, amostras de sangue e reagentes) vindos de fornecedores globais. Como cada fornecedor utiliza uma unidade de medida diferente — Celsius (°C), Fahrenheit (°F) ou Kelvin (K) —, o laboratório precisa padronizar todas as temperaturas de um lote em uma única unidade escolhida pelo biomédico para conseguir gerar os relatórios de controle de qualidade. Desenvolva um programa em Java que armazene em um vetor 5 temperaturas em Celsius vindas do relatório de um fornecedor. No programa principal, o sistema deve perguntar ao usuário para qual unidade ele deseja converter o lote atual, exibindo as seguintes opções: 
+
+- Digite 1 para converter para Fahrenheit (°F) 
+
+- Digite 2 para converter para Kelvin (K) 
+
+Com base na escolha do usuário, o programa principal deve acionar a sub-rotina correspondente, passar o vetor original como parâmetro e, por fim, imprimir o novo vetor com as temperaturas já convertidas e formatadas 
+
+- Fórmula 1: F = (Celsius * 1.8) + 32  
+
+- Fórmula 2: K = Celsius + 273.15
+
+**Uni7Exe14.java** Em sistemas de design, edição de imagens e análise de dados visuais, as cores secundárias são geradas a partir da combinação de cores primárias. Crie um sistema que simule a mistura de tintas com base nas três cores primárias tradicionais: Azul, Amarelo e Vermelho. Desenvolva um programa em Java que armazene em um vetor de String com duas posições as cores informadas pelo usuário. No programa principal, o sistema deve pedir para o usuário digitar duas cores primárias diferentes e guardá-las nesse vetor. Com base nas cores informadas, o programa principal deve acionar a sub-rotina correspondente, passar o vetor original como parâmetro e, por fim, imprimir na tela o nome da cor resultante obtida com a mistura.
+
+- String descobrirMistura(String[] cores): deve receber o vetor com as duas cores digitadas, analisar a combinação e retornar uma única String com o nome da cor gerada. 
+
+- Azul e Vermelho deve retornar "Roxo". 
+
+- Azul e Amarelo deve retornar "Verde". 
+
+- Amarelo e Vermelho deve retornar "Laranja".
+
+- Se o usuário digitar alguma cor que não seja primária ou repetir a mesma cor nas duas posições, a função deve retornar a mensagem "Combinação inválida".
+
+**Uni7Exe15.java** A equipe de veterinários e nutricionistas de um zoológico precisa monitorar de perto a alimentação dos animais para garantir que todos recebam os nutrientes adequados. Cada espécie possui uma quantidade diária recomendada de ração (em quilos). Porém, dependendo do comportamento ou do estado de saúde do animal, os tratadores precisam atualizar esses valores no sistema de forma rápida. Desenvolva um programa que armazene os nomes das espécies e a quantidade diária de ração de cinco animais do zoológico. Com base no animal informado pelo usuário, crie sub-rotinas para: 
+
+- Verificar se o animal está cadastrado. 
+
+- Caso o animal esteja cadastrado, atualizar a quantidade de ração diária conforme informado pelo usuário. 
+
+Ao final, o programa deverá imprimir o nome de cada animal e a respectiva quantidade de ração em kg. 
