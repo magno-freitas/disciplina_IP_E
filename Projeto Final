@@ -56,7 +56,7 @@ O processo de embaralhar deve considerar, no mínimo, 50 trocas de valores.
 O programa deve apresentar continuamente o seguinte menu:
 1 - Virar carta
 2 - Parar partida
-4 - Encerrar jogo
+3 - Encerrar jogo
 Na Opção 1 – Virar carta, o jogador deve informar a posição da qual deseja retirar a carta e o programa deve informar o valor da carta daquela posição. Caso o jogador já tenha virado cartas anteriormente, o valor da nova carta deve ser somado ao valor acumulado das cartas viradas anteriormente. Não é permitido ao jogador informar a mesma posição duas vezes em uma mesma partida. Caso isso aconteça, o programa deve informar a situação e solicitar uma nova posição.
 Considere que:
 •	cartas de 1 a 10 valem seu próprio valor. No caso do jogador ter 10 pontos e retirar a carta 1, esta passa a valer 11 pontos, de modo que ele irá somar 21 pontos;
@@ -73,7 +73,7 @@ O objetivo do jogador é obter o maior número de pontos possível sem ultrapass
 | --------------- | ------------------- |
 
 Na Opção 2 – Parar partida, o jogador encerra voluntariamente a partida, devendo ser informado o número de moedas obtidas. O baralho deve ser novamente embaralhado com todas as cartas e a soma das cartas deve ser zerada.
-Na Opção 4 – Encerrar jogo, informe:
+Na Opção 3 – Encerrar jogo, informe:
 •	quantidade de partidas jogadas;
 •	quantidade de partidas vencidas (número de moedas conquistadas maior ou igual a 50);
 •	quantidade de partidas perdidas (número de moedas conquistadas menor do que 50);
