@@ -63,7 +63,7 @@ Obs.: desvio padrão é uma medida que indica o quanto os valores de um conjunto
 **Uni7Exe07.java** O sensor de presença de uma loja de conveniência registrou o número de clientes a cada duas horas durante um dia inteiro. No entanto, houve uma falha no sistema e algumas leituras foram corrompidas, gerando valores negativos. Crie uma sub-rotina para realizar o tratamento desses dados corrompidos. A função deve receber o vetor original, gerar e retornar um novo vetor totalmente íntegro, ou seja, um vetor que mantenha os dados corretos e substitua todos os valores negativos por 0. 
 
 
-**Uni7Exe08.java** m grupo de cinéfilos está organizando uma ação de Dia dos Namorados para avaliar a compatibilidade de casais com base nas preferências de filmes. PO programa deve receber, de forma individual, uma nota de 1 a 5 para cinco filmes específicos: Parasita, A Viagem de Chihiro, Gladiador, O Diário de Uma Paixão e Os Intocáveis. Escreva uma sub-rotina que receba o vetor de notas da pessoa A e o vetor de notas da pessoa B. A função deve calcular a diferença absoluta (sem sinal negativo) entre as notas de cada filme e gerenciar um medidor de afinidade (que começa em 0) seguindo as regras abaixo:
+**Uni7Exe08.java** Um grupo de cinéfilos está organizando uma ação de Dia dos Namorados para avaliar a compatibilidade de casais com base nas preferências de filmes. O programa deve receber, de forma individual, uma nota de 1 a 5 para cinco filmes. Escreva uma sub-rotina que receba o vetor de notas da pessoa A e o vetor de notas da pessoa B. Em seguida, faça uma função calcule a diferença absoluta (sem sinal negativo) entre as notas de cada filme e informe um medidor de afinidade (que começa em 0) seguindo as regras abaixo:
 
 - Se a diferença for igual a 0 (mesma nota): Adicione 3 pontos ao medidor.
 
@@ -71,7 +71,6 @@ Obs.: desvio padrão é uma medida que indica o quanto os valores de um conjunto
 
 - Se a diferença for igual ou maior que 3 (gostos muito distantes): Subtraia 2 pontos do medidor.
 
-Se a diferença for igual ou maior que 3 (gostos muito distantes): Subtraia 2 pontos do medidor. 
 
 
 **Uni7Exe09.java** Em uma turma de Ciência de Dados, o professor solicitou que os alunos desenvolvessem um conversor decimal para binário. Em suas especificações o professor informou que: 
@@ -82,6 +81,7 @@ Se a diferença for igual ou maior que 3 (gostos muito distantes): Subtraia 2 po
 
 - O programa principal deve receber esse vetor retornado e imprimir o resultado final formatado na tela.
 
+
 **Uni7Exe10.java** Bancos de dados e tabelas precisam permitir que novos dados entrem, sejam encontrados e também deletados quando um cliente cancela o serviço. Você deve permitir que o usuário armazene até 10 IDs (valores inteiros) em um vetor, onde o valor 0 representa uma posição vazia. Com base nisso, crie uma sub-rotina para cada uma das situações abaixo: 
 
 - Verificar a existência de um ID.
@@ -89,6 +89,7 @@ Se a diferença for igual ou maior que 3 (gostos muito distantes): Subtraia 2 po
 - Remover um ID.
   
 - Adicionar um ID, caso ainda haja espaço disponível.
+
 
 **Uni7Exe11.java** Em empresas de tecnologia e e-commerce, o controle de estoque é automatizado por sistemas que atualizam bases de dados em tempo real. Para facilitar a operação, os produtos são identificados diretamente por seus nomes, e o sistema deve ser capaz de localizar as quantidades em estoque correspondentes. Crie um programa que gerencie um estoque de 5 itens, armazenando o nome dos itens e a quantidade em estoque. O programa principal deverá conter um menu com as seguintes opções: 
 
@@ -110,7 +111,7 @@ Para cada opção do menu, com exceção da opção 4, uma sub-rotina diferente 
 
 Após a verificação, o usuário que está tentando acessar deverá receber a seguinte mensagem: “Olá, usuário y. Seu acesso foi permitido/negado.” 
 
-**Uni7Exe13.java** Um laboratório de biomedicina recebe diariamente lotes de insumos refrigerados (como vacinas, amostras de sangue e reagentes) vindos de fornecedores globais. Como cada fornecedor utiliza uma unidade de medida diferente — Celsius (°C), Fahrenheit (°F) ou Kelvin (K) —, o laboratório precisa padronizar todas as temperaturas de um lote em uma única unidade escolhida pelo biomédico para conseguir gerar os relatórios de controle de qualidade. Desenvolva um programa em Java que armazene em um vetor 5 temperaturas em Celsius vindas do relatório de um fornecedor. No programa principal, o sistema deve perguntar ao usuário para qual unidade ele deseja converter o lote atual, exibindo as seguintes opções: 
+**Uni7Exe13.java** Desenvolva um programa em Java que armazene em um vetor 5 temperaturas em Celsius vindas do relatório de um fornecedor. No programa principal, o sistema deve perguntar ao usuário para qual unidade ele deseja converter o lote atual, exibindo as seguintes opções: 
 
 - Digite 1 para converter para Fahrenheit (°F) 
 
@@ -134,7 +135,7 @@ Com base na escolha do usuário, o programa principal deve acionar a sub-rotina 
 
 - Se o usuário digitar alguma cor que não seja primária ou repetir a mesma cor nas duas posições, a função deve retornar a mensagem "Combinação inválida".
 
-**Uni7Exe15.java** A equipe de veterinários e nutricionistas de um zoológico precisa monitorar de perto a alimentação dos animais para garantir que todos recebam os nutrientes adequados. Cada espécie possui uma quantidade diária recomendada de ração (em quilos). Porém, dependendo do comportamento ou do estado de saúde do animal, os tratadores precisam atualizar esses valores no sistema de forma rápida. Desenvolva um programa que armazene os nomes das espécies e a quantidade diária de ração de cinco animais do zoológico. Com base no animal informado pelo usuário, crie sub-rotinas para: 
+**Uni7Exe15.java** A equipe de veterinários e nutricionistas de um zoológico precisa monitorar de perto a alimentação dos animais para garantir que todos recebam os nutrientes adequados. Cada espécie possui uma quantidade diária recomendada de ração (em quilos). Porém, dependendo do comportamento ou do estado de saúde do animal, os tratadores precisam atualizar esses valores no sistema de forma rápida. Desenvolva um programa que armazene os nomes das espécies e a quantidade diária de ração de cinco animais do zoológico. Em seguida, com base no animal informado pelo usuário, crie sub-rotinas para: 
 
 - Verificar se o animal está cadastrado. 
 
