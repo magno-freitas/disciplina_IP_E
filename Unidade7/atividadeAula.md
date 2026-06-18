@@ -142,3 +142,15 @@ Com base na escolha do usuário, o programa principal deve acionar a sub-rotina 
 - Caso o animal esteja cadastrado, atualizar a quantidade de ração diária conforme informado pelo usuário. 
 
 Ao final, o programa deverá imprimir o nome de cada animal e a respectiva quantidade de ração em kg. 
+
+**Uni7Exe16.java**  Uma academia registrou a quantidade de minutos de atividade física realizada por um grupo de alunos durante uma semana. Faça um programa que:
+
+a) leia a quantidade de alunos a serem analisados;
+
+b) implemente em uma função a leitura da quantidade de minutos praticados por cada aluno;
+
+c) implemente uma função que receba o vetor de minutos e retorne a média de minutos praticados pelos alunos;
+
+d) implemente uma função que receba o vetor e a média calculada e retorne a quantidade de alunos que praticaram menos minutos do que a média;
+
+e) apresente a média de minutos praticados e a quantidade de alunos que ficaram abaixo da média.
