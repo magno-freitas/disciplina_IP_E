@@ -135,7 +135,7 @@ Com base na escolha do usuário, o programa principal deve acionar a sub-rotina 
 
 - Se o usuário digitar alguma cor que não seja primária ou repetir a mesma cor nas duas posições, a função deve retornar a mensagem "Combinação inválida".
 
-**Uni7Exe15.java** A equipe de veterinários e nutricionistas de um zoológico precisa monitorar de perto a alimentação dos animais para garantir que todos recebam os nutrientes adequados. Cada espécie possui uma quantidade diária recomendada de ração (em quilos). Porém, dependendo do comportamento ou do estado de saúde do animal, os tratadores precisam atualizar esses valores no sistema de forma rápida. Desenvolva um programa que armazene os nomes das espécies e a quantidade diária de ração de cinco animais do zoológico. Em seguida, com base no animal informado pelo usuário, crie sub-rotinas para: 
+**Uni7Exe15.java** A equipe de veterinários e nutricionistas de um zoológico precisa monitorar de perto a alimentação dos animais para garantir que todos recebam os nutrientes adequados. Cada espécie possui uma quantidade diária recomendada de ração (em quilos). Porém, dependendo do comportamento ou do estado de saúde do animal, os tratadores precisam atualizar esses valores no sistema de forma rápida. Desenvolva um programa que armazene os nomes das espécies e a quantidade diária de ração de n animais do zoológico. Em seguida, com base no animal informado pelo usuário, crie sub-rotinas para: 
 
 - Verificar se o animal está cadastrado. 
 
