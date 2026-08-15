@@ -1,3 +1,5 @@
+package Unidade7.src;
+
 import java.util.Scanner;
 
 public class Questao3Recupera {
@@ -5,11 +7,14 @@ public class Questao3Recupera {
     public int contarTrincas (int cartas[]) {
 
 
+        return 0;
     }
+
 
     public int contarSequencias  (int cartas[], int naipes[]) {
 
 
+        return 0;
     }
 
     public static void main(String[] args) {
@@ -36,6 +41,12 @@ public class Questao3Recupera {
         System.out.println("Numero de sequencias = " + sequencias);
         int pontos = trincas * 50 + sequencias *100;
         System.out.println("Pontuação = " + pontos);
+    }
+
+    private int contarSequencia(int[] cartas, int[] naipes) {
+
+
+        return 0;
     }
 
 }

@@ -1,3 +1,5 @@
+package Unidade4.src;
+
 import java.util.Scanner;
 
 public class ExemploCupom {
@@ -5,7 +7,6 @@ public class ExemploCupom {
     public static void main(String[] args) {
         //entrada de dados
         Scanner scanner = new Scanner(System.in);
-        scanner.
         System.out.print("Digite o valor do produto: ");
         double valorProduto = scanner.nextDouble();
         System.out.println ("Tem cupom?");
